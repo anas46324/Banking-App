@@ -1,5 +1,3 @@
-# Banking-App
-This Repository contains Banking Application like Accounts Dashboard Transactions Settings
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
