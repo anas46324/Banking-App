@@ -1,0 +1,47 @@
+.sidebar {
+  width: 60px; /* Sidebar width */
+  height: 100vh; /* Full viewport height */
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+  padding: 10px; /* Reduced padding to avoid content overflow */
+  
+  position: fixed; /* Fix sidebar to prevent it from moving */
+  top: 0;
+  left: 0;
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  overflow: hidden; /* Prevent scrolling inside the sidebar */
+}
+
+.sidebar h2 {
+  color: #fff;
+  margin-bottom: 10px; /* Add space below the heading */
+  text-align: center; /* Center heading text */
+  font-size: 1rem; /* Adjust font size for better fit */
+}
+
+.sidebar ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  width: 100%; /* Full width for list items */
+}
+
+.sidebar ul li {
+  padding: 15px 5px; /* Adjust padding for better spacing */
+  cursor: pointer; /* Pointer cursor for interactivity */
+  text-align: center; /* Center text */
+  font-size: 0.9rem; /* Adjust font size for readability */
+  color: #ddd; /* Slightly lighter text color */
+}
+
+.sidebar ul li:hover {
+  background-color: #444; /* Highlight item on hover */
+  color: white; /* Optional: Make text white on hover */
+}
+
+.sidebar ul li.active {
+  background-color: #555; /* Highlight active item */
+  color: firebrick;
+}
